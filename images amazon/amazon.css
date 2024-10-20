@@ -1,0 +1,456 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.mainbar{
+    border: 0px solid;
+    height: 80px;
+    background-color: rgb(43, 43, 62);
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.navlogo{
+    height: 0px;
+    width: 150px;
+    
+}
+.logo{
+    background-image: url(amazon-logo-1024x683.png);
+    background-size: cover;
+    height: 70px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white; /*white border appears when mouse is over it*/
+}
+.navaddress{
+    color: white;
+    padding-left: 5px;
+    margin-top: 18px;
+    height: 50px;
+}
+.chennai{
+    color: #a4a0a0;
+    margin-left: 15px;
+}
+.add-icon{
+    display: flex;
+}
+.location{
+    margin-left: 5px;
+}
+.nav-search{
+    display: flex;
+    background-color: #fbfbfb;
+    width: 750px; height: 50px;
+    border-radius: 4px;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    
+}
+.search-box{
+    background-color: #F3F3F3;
+    width: 50px;
+    font-size: small;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1.3rem;
+    border: none;
+    
+}
+.search-icon{
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    font-size: 1.3rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.location{
+    font-weight: bolder;
+    font-size: larger;
+}
+.language-icon{
+    display: flex;
+    margin-left: 20px;
+}
+.language{
+    background-color: rgb(43,43,62); 
+    height: 50px;
+    color: #F3F3F3;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+.language1{
+    color: white;
+    font-weight: bolder;
+}
+.signin-icon{
+    font-size: 1rem;
+    color: #F3F3F3;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 150px;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-left: 20px;
+}
+.nav-second{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #F3F3F3;
+}
+.nav-return{
+    font-size: 1rem;
+    color: #F3F3F3;
+    justify-items: center;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    width: 100px;
+    padding-left: 10px;
+    
+}
+.nav-order{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #F3F3F3; 
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.cart-icon{
+    color: #fff4f4;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    height: 40px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    margin-top: 20px;
+    width: 100px;
+}
+.cart-icon i{
+    font-size: 40px;
+    color: #F3F3F3;
+    padding-bottom: 20px;
+}
+.panel{
+height: 40px;
+background-color: #222f3d;
+display: flex;
+color: white;
+    align-items: center;
+    
+}
+.panel-ops p{
+    display: inline;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    margin-left: 25px;      
+}
+.panel-all{
+    font-weight: bolder;
+    font-size: larger;
+    margin-left: 30px;
+}
+.panel-all i{
+   height: 20px;
+}
+
+.hero-section{
+    background-image: url(mainheader.jpg);
+    height: 650px;
+    background-size: cover;
+    height: 400px;
+}
+
+.shop-section{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+background-color: #e2e7e6;
+}
+.box{
+height: 430px;
+margin-top: 15px;
+width: 23%;
+background-color: white;
+padding: 20px 0px 15px  ;
+}
+.box-image{
+height: 350px;
+background-size: cover;
+}
+.box1-content{
+margin-left: 15px;
+margin-right: 15px;
+margin-top: 10px;
+}
+.box1-content p{
+color: #007185;
+margin-top: 10px;
+}
+.box2-content{
+margin-left: 15px;
+margin-right: 15px;
+margin-top: 5px;
+}
+.box-image1{
+height: 150px;
+background-image: url(AC.jpg);
+background-size: cover;
+width: 150px;
+margin-top: 20px;
+float: right;
+}
+.box-image2{
+height: 150px;
+background-image: url(washing\ machine.jpg);
+background-size: cover;
+width: 170px;
+margin-top: 20px;
+float: left;
+}
+.box-image3{
+height: 150px;
+background-image: url(refrigerator.jpg);
+background-size: cover;
+width: 150px;
+margin-left: 185px;
+float: left;
+margin-top: 25px;
+}
+.box-image4{
+height: 180px;
+background-image: url(Microwave.jpg);
+background-size: cover;
+margin-top: 164px;
+width: 170px;
+}
+.box2-content p{
+color: #007185;
+margin-top: 20px;
+}
+.box3-image{
+height: 370px;
+background-size: contain;
+width: 340px;
+margin-left: 14px;
+margin-top: 10px;
+}
+.heading{
+margin-left: 15px;
+}
+.box3-content p{
+margin-top: 10px;
+margin-left: 10px;
+color: #007185;
+}
+.box4-image{
+height: 370px;
+background-size: cover;
+width: 360px;
+margin-left: 14px;
+margin-top: 10px;
+}
+.heading{
+margin-left: 15px;
+}
+.box4-content p{
+margin-bottom: 10px;
+margin-left: 10px;
+color: #007185;
+}
+.box4-content{
+margin-left: 15px;
+margin-right: 15px;
+margin-top: 5px;
+}
+.box-image9{
+height: 150px;
+background-image: url(PC_QC_HOME_SIZE_372_4._SY232_CB567468220_.jpg);
+background-size: contain;
+width: 150px;
+margin-top: 25px;
+float: right;
+}
+.box-image10{
+height: 150px;
+background-image: url(PC_QC_HOME_SIZE_372_3._SY232_CB567468220_.jpg);
+background-size: cover;
+width: 175px;
+margin-top: 25px;
+float: left;
+}
+.box-image11{
+height: 150px;
+background-image: url(PC_QC_HOME_SIZE_372_2._SY232_CB567468220_.jpg);
+background-size: cover;
+width: 150px;
+margin-left: 190px;
+
+float: left;
+margin-top: 25px;
+}
+.box-image12{
+height: 150px;
+background-image: url(PC_QC_HOME_SIZE_372_1._SY232_CB567468220_.jpg);
+background-size: cover;
+margin-top: 200px;
+width: 170px;
+}
+.box4-content p{
+color: #007185;
+margin-top: 20px;
+}
+.box5-content{
+margin-left: 15px;
+margin-right: 15px;
+margin-top: 10px;
+}
+.box5-content p{
+color: #007185;
+margin-top: 20px;
+}
+.box6-content{
+margin-left: 15px;
+margin-right: 15px;
+margin-top: 5px;
+}
+.box-image15{
+height: 150px;
+background-image: url(med2x._SY232_CB424026091_.jpg);
+background-size: contain;
+width: 160px;
+margin-top: 20px;
+float: right;
+}
+.box-image16{
+height: 150px;
+background-image: url(Tools2x._SY232_CB424026090_.jpg);
+background-size: contain;
+width: 170px;
+margin-top: 20px;
+float: left;
+}
+.box-image17{
+height: 150px;
+background-image: url(abc.jpg);
+background-size: cover;
+width: 160px;
+margin-left: 180px;
+float: left;
+margin-top: 25px;
+}
+.box-image18{
+height: 155px;
+background-image: url(calculator.jpg);
+background-size: cover;
+margin-top: 195px;
+width: 170px;
+}
+.box6-content p{
+color: #007185;
+margin-top: 15px;
+}
+.box8-content{
+margin-left: 15px;
+margin-right: 15px;
+margin-top: 10px;
+}
+.box8-content p{
+color: #007185;
+margin-top: 20px;   
+}
+.box7-content{
+margin-left: 15px;
+margin-right: 15px;
+margin-top: 5px;
+}
+.box-image20{
+height: 150px;
+background-image: url(shirts.jpg);
+background-size: contain;
+width: 158px;
+margin-top: 20px;
+float: right;
+}
+.box-image21{
+height: 150px;
+background-image: url(shoes.jpg);
+background-size: contain;
+width: 170px;
+margin-top: 20px;
+float: left;
+}
+.box-image22{
+height: 170px;
+background-image: url(jeans.jpg);
+background-size: cover;
+width: 160px; 
+margin-left: 180px;
+float: left;
+margin-top: 25px;
+}
+.box-image23{
+height: 170px;
+background-image: url(dress.jpg);
+background-size: cover;
+margin-top: 195px;
+width: 170px;
+}
+.box7-content p{
+color: #007185;
+margin-top: 20px;
+}
+.heading1{
+margin-bottom: 10px;
+}
+.foot-panel{
+background-color: #37475A;
+color: white;
+height: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 1rem;
+margin-top: 15px;
+}
+.footer{
+margin-top: 15px;
+}
+/*a is the list of clickable links*/
+.foot-panel1{
+background-color: #222f3d;
+color: #dddddd;
+height: 500px;
+display: flex;
+justify-content: space-evenly;
+}
+ul a{
+display: block; /* block is used to display date in a line or in a proper manner */
+font-size: 1.2rem;
+margin-top: 15px;
+}
+.foot-panel1 p{
+font-weight: bolder;
+font-size: 1.5rem;
+margin-top: 40px;
+}
+.heading2{
+margin-bottom: 10px;
+}
